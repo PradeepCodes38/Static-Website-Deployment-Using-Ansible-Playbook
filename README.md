@@ -70,6 +70,27 @@ using host local IP address
 
 
 
-      
+-----------------------------------------------
+
+
+# The ansible-galaxy role init command is used to initialize a new Ansible role directory structure. This command creates a standard directory layout with predefined subdirectories and files, making it easier to organize and manage your Ansible roles.
+
+$ ansible-galaxy role init
+Example:- ansible-galaxy role init kubernetes
+
+# This command will create a directory structure for your Ansible role "kubernetes" with the following subdirectories and files:
+
+        kubernetes/: Root directory for the role.
+    defaults/: Directory for default variable files.
+    files/: Directory for static files that can be copied to hosts.
+    handlers/: Directory for handler tasks.
+    meta/: Directory containing metadata for the role.
+    tasks/: Directory for main tasks of the role.
+    templates/: Directory for Jinja2 template files.
+    tests/: Directory for test-related files.
+    vars/: Directory for variable files.
+    README.md: Readme file with information about the role.
+    LICENSE: License file for the role (e.g., MIT, GPL).
+    CHANGELOG.md: Changelog file for tracking changes to the role.
 
 
